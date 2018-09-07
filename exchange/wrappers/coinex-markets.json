@@ -1,0 +1,2400 @@
+{
+    "assets": [
+        "BBN",
+        "BCH",
+        "BTC",
+        "BTM",
+        "BTV",
+        "CARD",
+        "CDY",
+        "CET",
+        "CMT",
+        "CNN",
+        "CODY",
+        "CTXC",
+        "DACC",
+        "DASH",
+        "DCR",
+        "DOGE",
+        "EGT",
+        "EOS",
+        "EOSDAC",
+        "ETC",
+        "ETH",
+        "GNT",
+        "HOT",
+        "HSR",
+        "HYDRO",
+        "ICX",
+        "KAN",
+        "LFT",
+        "LOOM",
+        "LTC",
+        "MGD",
+        "MT",
+        "NANO",
+        "NASH",
+        "NEO",
+        "NOBS",
+        "OLT",
+        "OMG",
+        "QTUM",
+        "RHOC",
+        "SC",
+        "SEELE",
+        "SEER",
+        "SOP",
+        "TCT",
+        "THPC",
+        "TRX",
+        "USCA",
+        "USCB",
+        "USHA",
+        "USHB",
+        "VEN",
+        "VET",
+        "VITE",
+        "WHC",
+        "WINGS",
+        "WWB",
+        "XMC",
+        "XMR",
+        "XMV",
+        "XRP",
+        "ZEC",
+        "ZIL",
+        "ZRX"
+    ],
+    "currencies": [
+        "BCH",
+        "BTC",
+        "ETH",
+        "USDT"
+    ],
+    "markets": [
+        {
+            "pair": [
+                "BCH",
+                "BBN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BBNBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "BBN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BBNBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "BBN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BBNETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "BCH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "BCHUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "BTC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BTCBCH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "BTC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "BTCUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "BTM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BTMBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "BTM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BTMBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "BTM"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BTMETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "BTV"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "BTVBCH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CARD"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CARDBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "CARD"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CARDBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CARD"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CARDETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CDY"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CDYBCH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CET"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CETBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "CET"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CETBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CET"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CETETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "CET"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 0.000001,
+                "unit": "asset"
+            },
+            "pricePrecision": 6,
+            "amountPrecision": 8,
+            "book": "CETUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CMT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CMTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "CMT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CMTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CMT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CMTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CNN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CNNBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "CNN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CNNBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CNN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CNNETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CODY"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CODYBCH"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CODY"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CODYETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "CTXC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CTXCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "CTXC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CTXCBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "CTXC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "CTXCETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "DACC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DACCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "DACC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DACCBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "DACC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DACCETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "DASH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DASHBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "DASH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DASHBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "DASH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "DASHUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "DCR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DCRBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "DCR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DCRBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "DOGE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DOGEBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "DOGE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "DOGEBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "EGT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EGTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "EGT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EGTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "EGT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EGTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "EOS"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EOSBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "EOS"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EOSBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "EOSDAC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EOSDACBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "EOSDAC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EOSDACBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "EOS"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "EOSETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "EOS"
+            ],
+            "minimalOrder": {
+                "amount": 0.01,
+                "price": 0.0001,
+                "unit": "asset"
+            },
+            "pricePrecision": 4,
+            "amountPrecision": 8,
+            "book": "EOSUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ETC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ETCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ETC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ETCBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "ETC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.0001,
+                "unit": "asset"
+            },
+            "pricePrecision": 4,
+            "amountPrecision": 8,
+            "book": "ETCUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ETH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ETHBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ETH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ETHBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "ETH"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "ETHUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "GNT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "GNTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "GNT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "GNTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "GNT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "GNTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "HOT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HOTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "HOT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HOTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "HOT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HOTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "HSR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HSRBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "HSR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HSRBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "HYDRO"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HYDROBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "HYDRO"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HYDROBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "HYDRO"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "HYDROETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ICX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ICXBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ICX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ICXBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "ICX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ICXETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "KAN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "KANBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "KAN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "KANBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "KAN"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "KANETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "LFT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LFTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "LFT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LFTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "LFT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LFTETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "LFT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LFTUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "LOOM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LOOMBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "LOOM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LOOMBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "LOOM"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LOOMETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "LTC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LTCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "LTC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "LTCBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "LTC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "LTCUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "MGD"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "MGDBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "MGD"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "MGDBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "MT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "MTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "MT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "MTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "MT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "MTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "NANO"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NANOBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "NANO"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NANOBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "NASH"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NASHBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "NASH"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NASHBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "NASH"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NASHETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "NEO"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NEOBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "NEO"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NEOBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "NOBS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NOBSBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "NOBS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NOBSBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "NOBS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "NOBSETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "OLT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OLTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "OLT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OLTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "OLT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OLTETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "OLT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 0.000001,
+                "unit": "asset"
+            },
+            "pricePrecision": 6,
+            "amountPrecision": 8,
+            "book": "OLTUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "OMG"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OMGBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "OMG"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OMGBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "OMG"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "OMGETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "QTUM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "QTUMBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "QTUM"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "QTUMBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "RHOC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "RHOCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "RHOC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "RHOCBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "SC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "SC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SCBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "SC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 0.000001,
+                "unit": "asset"
+            },
+            "pricePrecision": 6,
+            "amountPrecision": 8,
+            "book": "SCUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "SEELE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEELEBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "SEELE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEELEBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "SEELE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEELEETH"
+        },
+        {
+            "pair": [
+                "USDT",
+                "SEELE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 0.000001,
+                "unit": "asset"
+            },
+            "pricePrecision": 6,
+            "amountPrecision": 8,
+            "book": "SEELEUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "SEER"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEERBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "SEER"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEERBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "SEER"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SEERETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "SOP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SOPBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "SOP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SOPBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "SOP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "SOPETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "TCT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TCTBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "TCT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TCTBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "TCT"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TCTETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "THPC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "THPCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "THPC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "THPCBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "THPC"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "THPCETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "TRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TRXBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "TRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TRXBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "TRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "TRXETH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "USCA"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "USCABTC"
+        },
+        {
+            "pair": [
+                "BTC",
+                "USCB"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "USCBBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "USHA"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "USHABCH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "USHB"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "USHBBCH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "VEN"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VENBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "VEN"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VENBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "VET"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VETBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "VET"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VETBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "VET"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VETETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "VITE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VITEBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "VITE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VITEBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "VITE"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "VITEETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "WHC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WHCBCH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "WINGS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WINGSBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "WINGS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WINGSBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "WINGS"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WINGSETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "WWB"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WWBBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "WWB"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "WWBBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "XMC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMCBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "XMC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMCBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "XMR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMRBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "XMR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMRBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "XMR"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "XMRUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "XMV"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMVBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "XMV"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XMVBTC"
+        },
+        {
+            "pair": [
+                "BCH",
+                "XRP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XRPBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "XRP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "XRPBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "XRP"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 0.000001,
+                "unit": "asset"
+            },
+            "pricePrecision": 6,
+            "amountPrecision": 8,
+            "book": "XRPUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ZEC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZECBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ZEC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZECBTC"
+        },
+        {
+            "pair": [
+                "USDT",
+                "ZEC"
+            ],
+            "minimalOrder": {
+                "amount": 0.001,
+                "price": 0.01,
+                "unit": "asset"
+            },
+            "pricePrecision": 2,
+            "amountPrecision": 8,
+            "book": "ZECUSDT"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ZIL"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZILBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ZIL"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZILBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "ZIL"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZILETH"
+        },
+        {
+            "pair": [
+                "BCH",
+                "ZRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZRXBCH"
+        },
+        {
+            "pair": [
+                "BTC",
+                "ZRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZRXBTC"
+        },
+        {
+            "pair": [
+                "ETH",
+                "ZRX"
+            ],
+            "minimalOrder": {
+                "amount": 1,
+                "price": 1e-8,
+                "unit": "asset"
+            },
+            "pricePrecision": 8,
+            "amountPrecision": 8,
+            "book": "ZRXETH"
+        }
+    ]
+}
